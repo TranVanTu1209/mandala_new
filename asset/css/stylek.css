@@ -1,0 +1,107 @@
+a{
+  text-decoration: none !important;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main-header{
+  margin-top: 20px;
+}
+.main-header span{
+  font-size: 14px;
+    float: left;
+    color: #979797;
+}
+.main-header i{
+  font-size: 10px;
+    margin: 0 5px;
+}
+.main-header a{
+  float: right;
+    color: #FFAA2E;
+    font-size: 14px;
+}
+
+.main-hd-hr{
+  color: #BDBDBD;
+  margin: 30px 0;
+  border: 1px solid #BDBDBD;
+}
+.main-hd-content span button{
+  border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.main-hd-content span.span-i{
+  margin-left: 30px;
+    color: red;
+    font-size: 25px;
+}
+.main-hd-content span h3 i{
+  color: #FFA726;
+    font-size: 18px !important;
+    margin-left: 5px;
+}
+.main-hd-content span p{
+  font-size: 12px;
+}
+.main-danhgia{
+  margin-top: 25px;
+}
+.main-danhgia .dg-content{
+  position: relative;
+    float: left;
+    border: 1px solid #52B520;
+    background: #52B520;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.main-danhgia .dg-content::before{
+ position: absolute;
+    top: -1px;
+    border-bottom: 20px solid transparent;
+    border-left: 18px solid #52B520;
+    right: -16px;
+    content: " ";
+
+}
+.main-danhgia .dg-content1 span{
+  font-size: 25px;
+    margin-left: 15px;
+}
+
+.main-danhgia .dg-content2 span{
+  font-size: 12px;
+    margin-left: 10px;
+}
+.main-dg-tb{
+  background: #D8EED5;
+    padding: 20px 0;
+        margin-top: 25px;
+    border-radius: 5px;
+}
+.main-dg-tb span img{
+  float: left;
+}
+.main-dg-tb p{
+  font-size: 13px;
+    margin-bottom: 0 !important;
+    padding: 0 5px;
+}
+.dg-content h1{
+  margin-top: 10px !important;
+}
+.dg-content1 {
+  margin-top: 10px;
+}
+
+.ks-menu {
+  margin-top: 50px;
+}

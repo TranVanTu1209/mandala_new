@@ -1,0 +1,17 @@
+đẩy code lên git
+
+b1:git add .
+
+b2: git status
+
+b3:  chú thích: git commit -m "chú thích"
+
+b4: kiểm tra nhánh: git branch
+
+b5: ko có nhánh thì tạo nhánh: git checkuot -b khanh
+
+b6: kiểm tra lại nhánh: git branch
+
+b7: đẩy code vào nhánh: git push origin khanh
+
+b8: vào github kiểm tra

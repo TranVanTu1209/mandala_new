@@ -1,0 +1,452 @@
+*{
+    box-sizing: border-box;
+}
+
+.row_css{
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 767px){
+    .row_css{
+        margin: 0 !important;
+    }
+}
+
+body{
+    background: #ccc;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.profile_left{
+    margin-top: 50px;
+}
+
+.nick_name p{
+    font-size: 15px;
+    color: #000D08;
+    font-weight: bold;
+}
+
+.nick_name p i{
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 11px;
+    border-radius: 50%;
+    background: #038C5A;
+    color: white;
+    font-size: 17px;
+}
+
+.profile_menu{
+    margin-top: 50px;
+}
+
+.profile_menu ul {
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+
+.profile_menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    
+  }
+
+.profile_menu li a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2A2A2E;
+    font-weight: bold;
+    display: block;
+  }
+
+.profile_menu li a i {
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.profile_menu li a:hover {
+    color: #038C5A;
+  }
+
+.profile_right{
+    border: 1px solid #ccc;
+    margin-top: 0px;
+    padding: 0px 20px 20px 20px;
+}
+
+.your_account{
+    background: #F4F8FE;
+    border: 1px solid #ccc;
+    border-bottom: 0px solid #ccc;
+    margin-top: 50px;
+    padding: 0px 20px 15px 20px;
+}
+
+.your_account h2{
+    font-size: 22px;
+    color: #5392F9;
+}
+
+.your_account p{
+    font-size: 14px;
+    color: #737373;
+}
+
+
+#datepicker{
+    width:180px; 
+}
+
+#datepicker > span:hover{
+    cursor: pointer;
+}
+
+.profile__input{
+    margin-top: 50px;
+}
+
+.information{
+    margin-top: 40px;
+}
+
+.profile_title p{
+    font-size: 14px;
+    color: #2A2A2E;
+}
+
+#note_style{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #737373;
+}
+
+.profile_input input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+}
+
+#select_country{
+    width: 180px;
+    height: 35px;
+}
+
+.change_pass{
+    margin-top: 10px;
+}
+
+.change_pass a{
+    color: #5392F9;
+    font-size: 13px;
+}
+
+.change_pass a:hover{
+    text-decoration: none;
+    color: #5392F9;
+}
+
+#social_style{
+    font-size: 14px;
+    color: #488BF8;
+    font-weight: bold;
+}
+
+.profile_button{
+    margin-top: 40px;
+}
+
+.profile_button button{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#delete{
+    border: 1px solid #488BF8;
+    background: none;
+}
+
+#save{
+    background: #488BF8;
+    border: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.your_account_2{
+    margin-bottom: 50px;
+}
+
+#select_style_2{
+    width: 100%;
+    height: 35px;
+}
+
+@media screen and (min-width: 768px){
+    .your_account_1{
+        width: 100%;
+    }
+    
+}
+
+/* START_________css_vendor1------------------- */
+
+.structure{
+    background: #F5F5F5;
+    height: 100%;
+}
+
+.structure__title{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.structure__title h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.structure__title p{
+    font-size: 14px;
+}
+
+.structure_add{
+    text-align: center;
+    background: #FFFFFF;
+    padding: 60px 0px 60px 0px;
+    margin-bottom: 35px;
+}
+
+.structure_add i{
+    font-size: 70px;
+    color: #E9E9E9;
+    margin-left: 20px;
+}
+
+#i_center{
+    color: #BDBDBD;
+    font-size: 80px;
+}
+
+.structure_add p{
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.structure_add button{
+    margin-top: 25px;
+    font-size: 14px;
+    background: #488BF8;
+    height: 40px;
+    line-height: 40px;
+    width: 135px;
+    color: white;
+    border: none;
+}
+
+.structure_right{
+    background: #F4F8FE;
+    border: 2px solid #DDDFE2;
+    padding: 30px 30px 20px 30px ;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 320px){
+    .structure_add i{
+        font-size: 30px;
+        color: #E9E9E9;
+        margin-left: 20px;
+    }
+    
+    #i_center{
+        color: #BDBDBD;
+        font-size: 40px;
+    }
+    
+}
+
+/* END___________css_vendor1------------------- */
+
+
+/* START_________css_vendor2------------------- */
+
+.service{
+    background: #F5F5F5;
+    height: 100%;
+}
+
+.service__title{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.service__title h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service__title p{
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.service_left{
+    background: #FFFFFF;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.form_select{
+    margin-bottom: 0px;
+}
+
+.form_checkbox{
+    height: 100%;
+}
+
+.checkbox_option select{
+    height: 35px;
+    width: 120px;
+}
+
+.checkbox_select option{
+    height: 35px;
+    width: 50%;
+}
+
+.form_checkbox form label{
+    font-weight: normal;
+}
+
+.continue{
+    margin-top: 30px;
+}
+
+.service_add i{
+    font-size: 70px;
+    color: #E9E9E9;
+    margin-left: 20px;
+}
+
+#i_center{
+    color: #BDBDBD;
+    font-size: 80px;
+}
+
+.service_add p{
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.service_add button{
+    margin-top: 25px;
+    font-size: 14px;
+    background: #488BF8;
+    height: 40px;
+    line-height: 40px;
+    width: 135px;
+    color: white;
+    border: none;
+}
+
+.service_right{
+    background: #F4F8FE;
+    border: 2px solid #DDDFE2;
+    padding: 30px 30px 20px 30px ;
+    margin-bottom: 35px;
+}
+
+#p_style{
+    color: #BDBDBD;
+    margin: 20px 0px 20px 0px;
+}
+
+#a_style{
+    color: #488BF8;
+}
+
+#a_style:hover{
+    text-decoration: none;
+}
+
+
+.service_input select{
+    height: 35px;
+    width: 50%;
+}
+
+.continue button{
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #488BF8;
+    border: none;
+}
+
+.select_style_1{
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.select_style_1 select{
+    height: 35px;    
+    width: 100%;
+}
+
+.service_select_input input{
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #7F7F7F;
+    border-right: 0px solid #7F7F7F;
+}
+
+.service_select_input select{
+    margin-left: -4px;
+    height: 35px;
+    background: #DDDFE2;
+}
+
+@media screen and (max-width: 320px){
+    .service_add i{
+        font-size: 30px;
+        color: #E9E9E9;
+        margin-left: 20px;
+    }
+    
+    #i_center{
+        color: #BDBDBD;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .service_select_input{
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    .service_select_input input{
+        width: 170px;
+        height: 35px;
+        border: 1px solid #7F7F7F;
+    }
+    .service_select_input select{
+        height: 35px;
+        background: #DDDFE2;
+    }
+}

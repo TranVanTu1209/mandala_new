@@ -1,0 +1,298 @@
+/** @format */
+
+@media (max-width: 991px) {
+	/* sign up bottom section */
+	#sign-up-bottom .inner {
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 464px) {
+	/* sign up bottom section */
+	#sign-up-bottom .sign-up-endow {
+		text-align: center;
+	}
+
+	#sign-up-bottom .inner button[type="submit"],
+	#sign-up-bottom .inner input[type="email"] {
+		width: 430px;
+		height: 50px;
+		border-radius: 3px;
+	}
+
+	/* footer update first time */
+	#sign-up-bottom .inner input[type="email"] {
+		width: 384px;
+	}
+}
+
+/* mobile phone */
+@media (max-width: 500px) {
+	#show-filter-search .navbar-nav .nav-item .tab {
+		width: 100%;
+		text-align: left !important;
+	}
+	/* add tab */
+	#show-filter-search .navbar-nav .nav-item .add-tab {
+		width: 400px;
+		left: -7vw;
+	}
+	#show-filter-search .navbar-nav .nav-item .add-tab .child-tab .inner {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	/* main footer */
+
+	#main-footer .boxes {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/* show case */
+	#showcase h1 {
+		font-size: 1.1rem;
+	}
+	#showcase p {
+		font-size: 0.9rem;
+	}
+	/* home banner */
+	#home-banner #showcase-carousel i {
+		color: var(--extra-card-color);
+		background-color: #333;
+		border-radius: 50%;
+		font-size: 2rem;
+		padding: 0.2rem 0.7rem;
+	}
+	/* combo deals */
+	#combo-deals .inner .row {
+		width: 480px;
+	}
+	#favourite-locations .locations .location .text {
+		position: absolute;
+		top: 40%;
+		left: 39%;
+	}
+	#travel-influences .inner .grid .article-1 .card .card-body {
+		left: 1%;
+	}
+	/* hotel results page */
+	#hotel-results .list-result-hotels .hotel-1 .hotel-1-header div:first-child {
+		display: none !important;
+		text-align: center;
+	}
+	#hotel-results .list-result-hotels .endow-banner {
+		padding: 1rem;
+	}
+	#hotel-results .list-result-hotels .endow-banner .tag {
+		display: none;
+	}
+	#hotel-results .list-result-hotels .hotel {
+		border: none !important;
+	}
+	#hotel-results
+		.list-result-hotels
+		.hotel
+		.main-info
+		.hotel-imgs
+		.top-img
+		img {
+		width: 100%;
+	}
+	/*  */
+	#hotel-results .main-hotels .header-above ul {
+		flex-direction: column;
+	}
+	#hotel-results .main-hotels .header-above ul li {
+		width: 100%;
+	}
+	#hotel-results .main-hotels .header-above ul li button {
+		width: 100%;
+		font-size: 1rem;
+	}
+	#hotel-results .row aside .list-hotels {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#hotel-results .list-result-hotels .hotel .main-info .left-info {
+		flex-direction: column;
+	}
+	#hotel-results
+		.list-result-hotels
+		.hotel
+		.main-info
+		.left-info
+		.hotel-details {
+		padding-left: 0 !important;
+		margin-top: 1rem;
+	}
+	#hotel-results .list-result-hotels .endow-banner .inner .title {
+		margin-left: 0;
+	}
+	#hotel-results .list-result-hotels .endow-banner .inner {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+	#hotel-results .list-result-hotels .endow-banner {
+		width: 100%;
+	}
+	/*  */
+	/* search result page */
+	#show-filter-search .navbar-filter .navbar-nav {
+		flex-direction: column;
+	}
+	#show-filter-search .navbar-filter .navbar-nav li {
+		margin-bottom: 0.3rem;
+		text-align: center;
+	}
+
+	/* steps bar */
+
+	#main-header li:first-child .step-bars {
+		width: 100vw;
+		margin-left: 8px;
+	}
+
+	#main-header li:first-child .step-bars li:nth-child(2):after,
+	#main-header li:first-child .step-bars li:first-child:after {
+		display: none;
+	}
+
+	#main-header li:first-child .step-bars {
+		margin-bottom: 1rem;
+		margin-top: 0.5rem;
+	}
+	/* news */
+	#main-news .right-news {
+		width: 400px;
+		padding-top: 1.5rem;
+	}
+
+	#main-news .right-news .list-news {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#main-news .left-news .news-inner .news-content {
+		top: 20%;
+	}
+
+	#main-news .right-news .list-news .news .news-inner .news-title {
+		width: 280px;
+	}
+
+	#main-news .left-news .news-inner .news-content .news-title {
+		line-height: 2rem;
+	}
+	/* news liked section */
+	#news-detail .news-liked .news-liked-list {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#news-detail .news-liked .news-liked-list .news .news-inner img {
+		width: 90%;
+	}
+}
+@media (max-width: 414px) {
+	#showcase .search-bar {
+		margin-left: 0;
+	}
+	#showcase .form-inline {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#travel-influences .inner .grid .article-1 {
+		grid-column: 1 / span 1;
+	}
+	#travel-influences .inner .grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#combo-deals .inner .row {
+		width: 410px;
+	}
+}
+@media (max-width: 375px) {
+	/*  */
+	#favourite-locations .locations .location .text {
+		left: 35%;
+	}
+	/*  */
+	#combo-deals .inner .row {
+		width: 373px;
+	}
+	/*  */
+	#hotel-results .list-result-hotels .hotel .main-info .hotel-imgs .extra-imgs {
+		grid-template-columns: repeat(5, 1fr);
+	}
+	#hotel-results
+		.list-result-hotels
+		.hotel
+		.main-info
+		.hotel-imgs
+		.top-img
+		img {
+		width: 100%;
+	}
+	/* footer update first time */
+	#sign-up-bottom .inner input[type="email"] {
+		width: 345px;
+	}
+
+	/* news page */
+	#main-news .right-news .list-news .news .news-inner .news-title {
+		width: 230px;
+	}
+}
+
+@media (max-width: 325px) {
+	#sign-up-bottom .inner input[type="email"] {
+		width: 290px;
+	}
+	#combo-deals .inner .row {
+		width: 320px;
+	}
+	#hotel-results .container.fluid {
+		width: 96%;
+	}
+	#hotel-results .list-result-hotels .next-page .number-of-page {
+		display: none;
+	}
+	#hotel-results .list-result-hotels .hotel .main-info .hotel-imgs .extra-imgs {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	/* news page */
+	#main-news {
+		margin-left: 0.5rem;
+	}
+
+	#main-news .right-news .list-news .news .news-inner .news-title {
+		width: 200px;
+	}
+
+	#main-news .left-news .news-inner .news-content {
+		top: 0.5rem;
+	}
+
+	#main-news .left-news .news-inner .news-content .news-title {
+		line-height: 1.5rem;
+		margin-right: 0;
+	}
+
+	#news-extra {
+		margin-left: 0.5rem;
+	}
+
+	#news-extra .list-news .news {
+		padding-right: 0;
+	}
+
+	/* liked news section */
+	#news-detail .news-liked .news-liked-list .news .news-inner .news-title p {
+		width: 180px;
+	}
+
+	#news-detail main,
+	#news-detail aside {
+		margin-left: 1rem;
+		width: 310px;
+	}
+
+	#news-detail aside {
+		margin-top: 1rem;
+	}
+}
